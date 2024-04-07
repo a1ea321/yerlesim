@@ -1,8 +1,8 @@
-# What this is
+## What this is
 
 A simple floor plan marking &amp; sharing application you can access from your browser.
 
-# Why I wrote this
+## Why I wrote this
 
 I wanted to be able to send a link to my co-workers in order to show where stuff is in the company.
 I looked around but could not find such an application.
