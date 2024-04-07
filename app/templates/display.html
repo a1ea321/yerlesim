@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yerleşim: {{ plan }}</title>
+    <link rel="stylesheet" href="static/display.css">
+    <script src="static/display.js"></script>
+</head>
+<body>
+    <h1><a href="/">←</a></h1>
+    {% for image in layers %}
+        <input type="checkbox" id="checkbox_{{ image }}" class="layer-checkbox" checked>
+        <label for="checkbox_{{ image }}">{{ image }}</label>
+        <br>
+    {% endfor %}
+    <div class="container">
+        {% for image in layers %}
+            <img src="static/plans/{{ plan }}/{{ image }}" id="img_{{ image }}" class="layer-img">
+        {% endfor %}
+        <img src="static/cursor.gif" class="cursor">
+    </div>
+</body>
+</html>
+

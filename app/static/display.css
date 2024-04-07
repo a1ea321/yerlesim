@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  width: 500px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+}
+
+.layer-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cursor {
+  position: absolute;
+  display: none; /* Initially hide cursor */
+}
